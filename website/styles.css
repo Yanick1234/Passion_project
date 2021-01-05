@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    text-align: center;
+    background-color:#333333 ;
+    position: relative;
+    height: 40px;
+}
+.headI {
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    z-index: 1;
+}
+
+ul ,.nav1 ,.nav2, .nav3{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline;
+    z-index: 2;
+    position: relative;
+}
+
+li {
+    display: inline-block;
+}
+
+header {
+    background: black;
+    height: 1050px;
+    position: relative;
+}
+
+.gif {
+    background-image: url("/Passion_project/website/images/final-banner.gif");
+    height: 994px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.opvullingG {
+    background: #333333;
+    height: 258px;
+    position: relative;
+}
+
+.opvulling1 {
+    background-image: url("/Passion_project/website/images/black\ vulling\ boven\ onder.png");
+    height: 258px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.section1 {
+    background: #333333;
+    height: 1000px;
+    position: relative;
+}
+
+.opvullingW {
+    background: white;
+    height: 258px;
+    position: relative;
+}
+
+.opvulling2 {
+    background-image: url("/Passion_project/website/images/gray\ vulling\ boven\ onder.png");
+    height: 258px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.whiteI {
+    background: white;
+    height: 1050px;
+    position: relative;
+}
+.Image {
+    background-image: url("/Passion_project/website/images/white\ game.png");
+    height: 1100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.opvullingWq {
+    background: white;
+
+}
+
+.opvulling3 {
+    background-image: url("/Passion_project/website/images/gray\ vulling\ onder\ boven.png");
+    height: 258px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.section2 {
+    background: #333333;
+    height: 1000px;
+    position: relative;
+}
+
+.opvulling4 {
+    background-image: url("/Passion_project/website/images/black\ vulling\ onder\ boven.png");
+    height: 258px;
+    background-color: #333333;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
