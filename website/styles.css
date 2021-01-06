@@ -3,26 +3,30 @@ body {
     padding: 0;
 }
 
+
+
 nav {
     text-align: center;
     background-color:#333333 ;
     position: relative;
-    height: 40px;
+    height: 72px;
 }
 .headI {
     position: absolute;
     left: 50%;
     margin-left: -125px;
     z-index: 1;
+    top: 70%;
 }
 
 ul ,.nav1 ,.nav2, .nav3{
     margin: 0;
-    padding: 0;
+    padding: 10px;
     list-style-type: none;
     display: inline;
     z-index: 2;
     position: relative;
+    vertical-align: top;
 }
 
 li {
@@ -33,6 +37,13 @@ header {
     background: black;
     height: 1050px;
     position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 17%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .gif {
@@ -67,8 +78,39 @@ header {
 
 .section1 {
     background: #333333;
-    height: 1000px;
+    height: 400px;
     position: relative;
+}
+
+.line1 {
+    height: 5px;
+    width: 1200px;
+    background: black;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 25%;
+}
+
+.line2 {
+    height: 5px;
+    width: 1200px;
+    background: black;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 10%;
+}
+
+.section1 .text p {
+    position: absolute;
+    width: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: white;
 }
 
 .opvullingW {
@@ -143,6 +185,80 @@ header {
 footer {
     background-color: black;
     height: 500px;
+    position: relative;
+}
+
+.nav1 li a {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    padding-right: 25px;
+    padding-left: 25px;
+        font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.nav1 li a:hover {
+    background-color: #565656;
+    color: white;
+  }
+
+  .nav3 li a:hover {
+    background-color: #565656;
+    color: white;
+  }
+  
+
+.nav3 li a {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    padding-right: 25px;
+    padding-left: 25px;
+        font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.nav2 li a {
+    font-size: 65px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #ff5715;
+}
+
+.nav2 li a:hover {
+    color: #ff2a00;
+  }
+
+ul {
+    top: 25%;
+}
+
+.line3 {
+    height: 5px;
+    width: 80%;
+    background: #333333;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 25%;
+}
+
+.text2 {
+    position: absolute;
+    right: 10%;
+    top: 72%;
+}
+
+.text2 p {
+
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: #333333;
 }
 
 
