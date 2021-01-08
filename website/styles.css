@@ -133,12 +133,14 @@ header {
 
 .whiteI {
     background: white;
-    height: 1050px;
+    height: 800px;
     position: relative;
 }
 .Image {
     background-image: url("/Passion_project/website/images/white\ game.png");
-    height: 1100px;
+    height: 800px;
+    max-width: 80%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -167,7 +169,7 @@ header {
 
 .section2 {
     background: #333333;
-    height: 1000px;
+    height: 1400px;
     position: relative;
 }
 
@@ -226,11 +228,11 @@ footer {
     font-size: 65px;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-    color: #ff5715;
+    color: #FF4100;
 }
 
 .nav2 li a:hover {
-    color: #ff2a00;
+    color: #FFA300;
   }
 
 nav ul {
@@ -265,7 +267,7 @@ nav ul {
 .about {
     position: absolute;
     left: 50%;
-    top: 30%;
+    top: 20%;
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
@@ -273,8 +275,8 @@ nav ul {
 }
 
 .icon1, .icon2, .icon3 {
-    padding-right: 120px;
-    padding-left: 120px;
+    padding-right: 80px;
+    padding-left: 80px;
     text-align: center;
 
 }
@@ -284,6 +286,71 @@ nav ul {
     font-size: 20px;
     color: white;
     width: 300px;
+}
+
+.slider {
+    max-width: 100%;
+    max-height: 100%;
+    border: 10px;
+    border-style: solid;
+    border-color: black;
+    margin: auto;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slider .left-slide {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    color: black;
+    top: 50%;
+    transform: translate(-250%, -50%);
+    cursor: pointer;
+    line-height: 40px;
+    transition: all .5s ease;
+}
+
+.slider .right-slide {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    color: black;
+    top: 50%;
+    transform: translate(250%, -50%);
+    cursor: pointer;
+    line-height: 40px;
+    transition: all .5s ease;
+}
+
+.slider .left-slide img, .slider .right-slide img {
+    max-width: 100%;
+}
+
+.slider .left-slide:hover, .slider .right-slide:hover {
+    color: white;
+}
+.slider .left-slide {
+    left: 30px;
+}
+
+.slider .right-slide {
+    right: 30px;
+}
+
+.slider .slider-items .item img {
+    max-width: 100%;
+    display: block;
+}
+
+.slider .slider-items .item{
+    display: none;
+}
+
+.slider .slider-items .item.active{
+    display: block;
 }
 
 
