@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav {
+    text-align: center;
+    background-color:#333333 ;
+    position: relative;
+    height: 72px;
+}
+.headI {
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    z-index: 1;
+    top: 70%;
+}
+
+ul ,.nav1 ,.nav2, .nav3{
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+    display: inline;
+    z-index: 2;
+    position: relative;
+    vertical-align: top;
+}
+
+li {
+    display: inline-block;
+}
+
+.gradient {
+    background-image: linear-gradient(black,  #333333 );
+    height: 225px;
+    position: relative;
+}
+
+.section1 {
+    background: #333333;
+    height: 700px;
+    position: relative;
+}
+
+.game {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    background: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    border: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+
+.opvulling4 {
+    background-image: url("/Passion_project/website/images/black\ vulling\ onder\ boven.png");
+    height: 258px;
+    background-color: #333333;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    height: 500px;
+    position: relative;
+}
+
+.nav1 li a {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    padding-right: 25px;
+    padding-left: 25px;
+        font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.nav1 li a:hover {
+    background-color: #565656;
+    color: white;
+  }
+
+  .nav3 li a:hover {
+    background-color: #565656;
+    color: white;
+  }
+  
+
+.nav3 li a {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    padding-right: 25px;
+    padding-left: 25px;
+        font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.nav2 li a {
+    font-size: 65px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #FF4100;
+}
+
+.nav2 li a:hover {
+    color: #FFA300;
+  }
+
+nav ul {
+    top: 25%;
+}
+
+.line3 {
+    height: 5px;
+    width: 80%;
+    background: #333333;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 25%;
+}
+
+.text2 {
+    position: absolute;
+    right: 10%;
+    top: 72%;
+}
+
+.text2 p {
+
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
