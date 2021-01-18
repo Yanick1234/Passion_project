@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav {
+    text-align: center;
+    background-color:#333333 ;
+    position: relative;
+    height: 72px;
+}
+.headI {
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    z-index: 1;
+    top: 70%;
+}
+
+ul ,.nav1 ,.nav2, .nav3{
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+    display: inline;
+    z-index: 2;
+    position: relative;
+    vertical-align: top;
+}
+
+li {
+    display: inline-block;
+}
+
+.gif {
+    background-image: url("/Passion_project/website/images/white\ game\ 2.png");
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+
+.gradient {
+    background-image: linear-gradient(black,  #333333 );
+    height: 225px;
+    position: relative;
+}
+
+.section1 {
+    background: #333333;
+    height: 3500px;
+    position: relative;
+    width: 100%;
+}
+
+.opvulling3 {
+    background-image: url("/Passion_project/website/images/gray\ vulling\ onder\ boven.png");
+    height: 258px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+
+
+.opvulling4 {
+    background-image: url("/Passion_project/website/images/black\ vulling\ onder\ boven.png");
+    height: 258px;
+    background-color: #333333;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    height: 500px;
+    position: relative;
+}
+
+.nav1 li a {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    padding-right: 25px;
+    padding-left: 25px;
+        font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.nav1 li a:hover {
+    background-color: #565656;
+    color: white;
+  }
+
+  .nav3 li a:hover {
+    background-color: #565656;
+    color: white;
+  }
+  
+
+.nav3 li a {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    padding-right: 25px;
+    padding-left: 25px;
+        font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.nav2 li a {
+    font-size: 65px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #FF4100;
+}
+
+.nav2 li a:hover {
+    color: #FFA300;
+  }
+
+nav ul {
+    top: 25%;
+}
+
+.line3 {
+    height: 5px;
+    width: 80%;
+    background: #333333;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 25%;
+}
+
+.text2 {
+    position: absolute;
+    right: 10%;
+    top: 72%;
+}
+
+.text2 p {
+
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: #333333;
+}
+
+.vak {
+    background-image: url("/Passion_project/website/images/vak.png");
+    width: 850px;
+    height: 500px;
+
+}
+
+.section1 ul li {
+
+    display: block;
+    padding: 50px;
+}
+
+.section1 ul {
+position: absolute;
+left: 50%;
+transform: translate(-50%, -50%);
+top: 45%;
+
+}
+
+h1 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.img1 {
+    position: absolute;
+    left: 10%;
+    width: 375px;
+    height: 350px;
+
+}
+
+.img1 img {
+    max-width: 375px;
+}
+
+.text {
+    position: absolute;
+    width: 375px;
+    height: 350px;
+    right: 10%;
+
+}
+
+.text1 {
+    position: absolute;
+    width: 785px;
+    height: 350px;
+left: 10%;
+
+}
+
+
+p {
+    text-align: left;
+    font-size: 16px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
