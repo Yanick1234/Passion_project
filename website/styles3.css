@@ -35,7 +35,9 @@ li {
 
 .gif {
     background-image: url("/Passion_project/website/images/white\ game\ 2.png");
-    height: 1000px;
+    height: 800px;
+    max-width: 80%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;

@@ -99,7 +99,30 @@ header {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    bottom: 10%;
+    top:85%;
+}
+
+.line4 {
+    height: 5px;
+    width: 1200px;
+    background: black;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top:6%;
+}
+
+.aboutT {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 3%;
+}
+
+.aboutT h1 {
+    font-size: 50px;
+    color: black;
+    font-family: 'Lato', sans-serif;
 }
 
 .section1 .text p {
@@ -267,7 +290,7 @@ nav ul {
 .about {
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: 25%;
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
